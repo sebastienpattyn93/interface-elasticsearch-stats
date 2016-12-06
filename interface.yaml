@@ -1,0 +1,4 @@
+name: elasticsearch-stats
+summary: Interface for metrics gathering integration for elasticsearch
+version: 1
+repo: https://github.com/jamesbeedy/interface-elasticsearch-stats
