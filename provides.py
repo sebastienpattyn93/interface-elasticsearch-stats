@@ -16,7 +16,6 @@ class ProvidesElasticsearchStats(RelationBase):
         self.remove_state('{relation_name}.connected')
 
     def configure(self, port):
-        address =
         relation_info = {
             'host': hookenv.unit_get('private-address'),
             'port': port,
